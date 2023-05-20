@@ -2,6 +2,8 @@
 
 using namespace std;
 int main(){
+
+//*************** Built in Data types*********************
     // int a = 23;
     // int b = 56;
     int a = 24, b= 56;
