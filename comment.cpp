@@ -1,6 +1,6 @@
 #include<iostream>
-
 using namespace std;
+
 //This is a single line comment
 
 /*This 

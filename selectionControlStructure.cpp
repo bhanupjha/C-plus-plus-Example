@@ -7,6 +7,7 @@ int main(){
     cin>> age;
 
 // 1. selection control structure: if else-if ladder  
+
     // if((age <= 13) && (age >= 1)){
     //     cout<<"you canot come to party";
     // } 
@@ -24,18 +25,19 @@ int main(){
     // }
 
 // 2.  selection control structure: Switch case statement
-    switch (age)
-    {
-    case 18:
-        cout<<"You are 18"<<endl;
-       // break..>  if we don't use it then next case statements will be executed until break appears.
-    case 22:
-        cout<<"You are 22"<<endl;
-        break; // The break statement ends execution of the nearest enclosing loop or conditional statement in which it appears.
+
+    // switch (age)
+    // {
+    // case 18:
+    //     cout<<"You are 18"<<endl;
+    //    // break..>  if we don't use it then next case statements will be executed until break appears.
+    // case 22:
+    //     cout<<"You are 22"<<endl;
+    //     break; // The break statement ends execution of the nearest enclosing loop or conditional statement in which it appears.
     
-    default:
-        cout<<"No such cases"<<endl;
-        break;
-    } 
+    // default:
+    //     cout<<"No such cases"<<endl;
+    //     break;
+    // } 
     return 0;
 }

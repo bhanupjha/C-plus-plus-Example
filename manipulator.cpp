@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
     int a= 23, b= 567, c= 2345;
+    
 //without using setw    
     cout<<"The value of a without setw is: "<<a<<endl;
     cout<<"The value of b without setw is: "<<b<<endl;

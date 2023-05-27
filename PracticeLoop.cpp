@@ -10,6 +10,7 @@ int main(){
     // for(int i = 1; i <= 10; i++){
     //     cout<<n<<" * "<<i<<" = "<<n*i<<endl;
     // }
+
 //using while loop
     // int i = 1;
     // while(i <= 10){
@@ -22,6 +23,7 @@ int main(){
     // do{
     // cout<<n<<" * "<<i<<" = "<<i * n<<endl;
     // i++;
-    // }while(i <= 10);    
+    // }while(i <= 10); 
+       
     return 0;
 }

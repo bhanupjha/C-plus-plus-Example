@@ -17,14 +17,14 @@ int main(){
 
 
 /* While loop in c++ */
-   //printing 1 to 50 using while loop
+//printing 1 to 50 using while loop
       //   int i = 1;
       //   while(i <= 50){
       //     cout<<i<<endl;
       //     i++;
       //   }
 
-  //Example of infinite while loop
+//Example of infinite while loop
       //   int i = 1;
       //   while(true){
       //     cout<<i<<endl;

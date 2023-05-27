@@ -1,7 +1,8 @@
-#include<iostream> // syatem header files
-#include "this.h" /*--> this will produce an error if this.h 
-is no present in the current directory. if we create an empty
-file of this.h it will not gives any error.*/
+#include<iostream> // system header files
+
+//#include "this.h" /*--> this will produce an error if this.h 
+//is no present in the current directory. if we create an empty
+//file of this.h it will not gives any error.*/
 
 using namespace std;
 

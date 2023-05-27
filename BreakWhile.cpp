@@ -7,7 +7,7 @@ int main(){
     //    // cout<<i<<endl; 
     //     if(i == 2){
     //       break;  //The break statement ends execution of the nearest enclosing loop or 
-    //            //  conditional statement in which it appears 
+                    //  conditional statement in which it appears 
     //     }      
     //     cout<<i<<endl; 
     // }
