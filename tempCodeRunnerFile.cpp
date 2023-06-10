@@ -1,6 +1,3 @@
-#include<iostream>
-using namespace std;
-
-int main(){
-
-//*******For loop*******
+cout<<breakfast<<endl;
+    // cout<<lunch<<endl;
+    // cout<<dinner<<endl;

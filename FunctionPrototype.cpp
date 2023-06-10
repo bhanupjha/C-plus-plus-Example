@@ -11,7 +11,7 @@ int sum(int, int); //..> Acceptable
 void g(); //..> Acceptable
 
 int main(){
-    int num1 = 23, num2 = 10;
+    int num1 = 23, num2 = 10; //num1 and num2 are actual parameter
     g();
     cout<<"\nThe first number is: "<<num1<<endl;
     cout<<"The second number is: "<<num2<<endl;
