@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//-------Recursion-------
 int factorial(int n){   
 /* A base case is a condition that stops the recursion and allows the function to return a value without making any further recursive calls.
    It provides a termination condition for the recursion.
@@ -31,6 +32,6 @@ int main(){
     int a;
     cout<<"Enter the number: "<<endl;
     cin>>a;
-    cout<<"The number is "<<factorial(a)<<endl;
+    cout<<"The factorial of "<<a<<" using recursion is "<<factorial(a)<<endl;
     return 0;
 }
