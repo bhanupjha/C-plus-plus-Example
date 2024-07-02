@@ -10,9 +10,13 @@ int main(){
     cout<<"The value of a * b is: "<<a*b<<endl; //50
     cout<<"The value of a / b is: "<<a/b<<endl; //2
     cout<<"The value of a % b is: "<<a%b<<endl; //0
+    //post-increment
     cout<<"The value of a++ is: "<<a++<<endl; //10
+    //post-decrement
     cout<<"The value of a-- is: "<<a--<<endl; //11
+   // pre-increment 
     cout<<"The value of ++a is: "<<++a<<endl; //11
+    //pre-decrement
     cout<<"The value of --a is: "<<--a<<endl<<endl; //10
     
 //Assignment operator
