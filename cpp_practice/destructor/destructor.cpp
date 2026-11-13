@@ -1,5 +1,4 @@
-// To avoid shallow copy we can define our own copy constructor with deep copy.
-// receiving copy constructor argument through pointer
+// compiler will supply default destructor when object is about to destroy
 
 #include <iostream>
 using namespace std;
@@ -22,8 +21,7 @@ class Array
 		 }
 		 Array(int *p, int s)
 		 {
-			 size=s;
-			 ptr = new int[size];
+			 size = s;
 			 for(int i=0; i<size; i++)
 			 {
 				 ptr[i]=p[i];
@@ -64,27 +62,16 @@ class Array
 				 } 
 			 }
 		 }
+		 ~Array()
+		 {
+			 cout<<"Destructor called"<<endl;
+			 delete[]ptr;
+		 }
 
 };
 
 int main()
 {
-	Array obj;
-	cout<<"obj: "<<endl;
-	obj.print();
-	obj.reverse();
-	cout<<"obj after reverse: "<<endl;
-	obj.print();
-	obj.sort();
-	cout<<"obj after sort: "<<endl;
-	obj.print();
-
-	Array obj2=obj;
-	cout<<"obj2: "<<endl;
-	obj2.print();
-	obj2.reverse();
-	cout<<"obj2 after reverse: "<<endl;
-	obj2.print();
-	cout<<"printing previous obj Reverse value:"<<endl;
-	obj.print();  // observe that it is also modified
+	Array obj;  // when object is about to destroy destructor automatically invoked
+		    // by compiler , internaly obj.~Array();
 }
